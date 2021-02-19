@@ -1,0 +1,19 @@
+.survival {
+    background-color: $color-bg-header_and_survival;
+    padding: 120px 0;
+}
+
+.survival__title {
+    letter-spacing: 2px;
+}
+
+.survival__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: $color-font-light;
+    max-width: 274px;
+    margin: 50px 0;
+}
+

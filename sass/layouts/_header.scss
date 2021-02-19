@@ -1,0 +1,45 @@
+.header {
+    background: $color-bg-header_and_survival;
+    padding: 19px 0 120px 0;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $color-font-light;
+}
+
+.header_button{
+    padding: 13px 26px 10px 26px;
+    border: 2px solid $color-orange-main;
+    box-sizing: border-box;
+    border-radius: 5px;
+    &:hover {
+        background:$color-orange-main;
+    }
+    &:active {
+        background:$color-orange-dark;
+    }
+}
+
+.navigation__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: $color-font-light;
+    list-style: none;
+    padding: 0 30px;
+    cursor: pointer;
+}

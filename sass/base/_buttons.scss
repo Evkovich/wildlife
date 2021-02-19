@@ -1,0 +1,23 @@
+.button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    color: $color-font-light;
+    border-radius: 5px;
+    background-color: $color-orange-main;
+    cursor: pointer;
+    transition: all .6s;
+}
+
+.survival__button {
+    width: 160px;
+    height: 60px;
+    &:hover {
+        background: $color-orange-light;
+    }
+    &:active {
+        background: $color-orange-dark;
+    }
+}
