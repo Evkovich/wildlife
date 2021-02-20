@@ -1,0 +1,29 @@
+.get-notified {
+    background: $color-bg-latest_articles_and_get_notified;
+    text-align: center;
+}
+
+.get__form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.mail__form{
+    width: 540px;
+    height: 60px;
+    background: $color-bg-latest_articles_and_get_notified;
+    border: 1px solid $color-font-grey;
+    border-right: none;
+    vertical-align: top;
+    margin-bottom: 240px;
+}
+
+.get__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    color: $color-font-dark;
+    margin-bottom: 59px;
+}

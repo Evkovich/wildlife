@@ -21,3 +21,16 @@
         background: $color-orange-dark;
     }
 }
+
+.get__button {
+    width: 120px;
+    height: 60px;
+    border: 1px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+    &:hover {
+        background: $color-orange-light;
+    }
+    &:active {
+        background: $color-orange-dark;
+    }
+}

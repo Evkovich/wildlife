@@ -8,79 +8,114 @@
     <link rel="stylesheet" href="/sass/style.css">
 </head>
 <body>
-    <header class="header">
-         <div class="wrapper header__wrapper">  
-            <a href="#" class="header__logo"><img src="/img/logo.png" alt=""><span class="text__logo">wildlife</span></a>  
-            <div class="header__navigation">
-                <ul class="navigation">
-                    <l1 class="navigation__link"><a href="#"></a>Blog</l1>
-                    <l1 class="navigation__link"><a href="#"></a>Contacts</l1>
-                    <l1 class="navigation__link"><a href="#"></a><img src="/img/search.png" alt=""></l1>
-                    <l1 class="navigation__link"><a href="#"></a><span class="header_button">Sign in</span></l1>
-                </ul>
+    <div class="background">
+        <header class="header">
+             <div class="wrapper header__wrapper">
+                <a href="#" class="header__logo"><object data="./img/logo.svg" type="image/svg+xml" class="logo-object">
+                    Your Browser does not support SVG
+                </object><span class="text__logo">wildlife</span></a>
+                <div class="header__navigation">
+                    <ul class="navigation">
+                        <l1 class="navigation__link"><a href="#"></a>Blog</l1>
+                        <l1 class="navigation__link"><a href="#"></a>Contacts</l1>
+                        <l1 class="navigation__link"><a href="#"></a><img src="/img/search.png" alt=""></l1>
+                        <l1 class="navigation__link"><a href="#"></a><span class="header_button">Sign in</span></l1>
+                    </ul>
+                </div>
             </div>
-        </div>
-        </header>
-        <section class="survival">
-            <div class="wrapper survival__wrapper">
-                <h1 class="survival__title">Survival</h1>
-                <p class="survival__text">What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation.</p>
-                <button class="button survival__button">Donate</button></div>
-            </div>
-        </section>
+            </header>
+            <section class="survival">
+                <div class="wrapper survival__wrapper">
+                    <h1 class="survival__title">Survival</h1>
+                    <p class="survival__text">What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation.</p>
+                    <button class="button survival__button">Donate</button></div>
+                </div>
+            </section>
+    </div>
     <section class="latest-articles">
         <div class="wrapper latest-articles__wrapper">
-            <h2>Latest articles</h2>
+            <h2 class="latest__title">Latest articles</h2>
             <p class="latest__text">Breaking news from the wild</p>
             <div class="layout-5-column">
-                <img src="" alt="left">
-                <div class="articles__content">
-                    <img src="" alt="deer">
-                    <h4>deer</h4>
-                    <span>Naturalist investigation</span>
+                <img src="/img/button_left.png" alt="left">
+                <div class="articles__container">
+                    <img src="/img/deer.jpg" alt="deer">
+                    <div class="container__text">
+                        <h4 >deer</h4>
+                        <span class="text">Naturalist investigation</span>
+                    </div>
                 </div>
-                <div class="articles__content">
-                    <img src="" alt="Squirrel">
-                    <h4>Squirrel</h4>
-                    <span>Kamikaze squirrels</span>
+                <div class="articles__container">
+                    <img src="/img/squirrel.jpg" alt="Squirrel">
+                    <div class="container__text">
+                        <h4>Squirrel</h4>
+                        <span class="text">Kamikaze squirrels</span>
+                    </div>
                 </div>
-                <div class="articles__content">
-                    <img src="" alt="deer">
-                    <h4>Bird</h4>
-                    <span>Birds Fight club</span>
+                <div class="articles__container">
+                    <img src="/img/bird.jpg" alt="bird">
+                    <div class="container__text">
+                    	<h4>Bird</h4>
+                    	<span class="text">Birds Fight club</span>
+                    </div>
                 </div>
-                <img src="" alt="right">
+                <img src="/img/button_right.png" alt="right">
             </div>   
         </div>
     </section>    
     <section class="get-notified">
-        <div class="wrapper">
-            <h3>Get notified about new amazing articles</h3>
-            <form action="#" method="POST">
-                <input type="email" name="mail" placeholder="Email">
-                <button type="submit">Send</button>
+        <div class="wrapper get-notified__wrapper">
+            <h3 class="get__title">Get notified about new amazing articles</h3>
+            <form class=get__form action="#" method="POST">
+                <input class="mail__form" type="email" name="mail" placeholder="Email">
+                <button class="button get__button" type="submit">Send</button>
             </form>   
         </div>
     </section>
     <footer class="footer">
-        <div class="wrapper">
+        <div class="wrapper footer_wrapper">
             <div class="footer__logo">
-                <img src="" alt="logo">
-                <p class="logo">wildlife</p>
+                <a href="#" class="footer__logo"><object data="./img/logo.svg" type="image/svg+xml" class="logo-object">
+                    Your Browser does not support SVG
+                </object><span class="text__logo">wildlife</span></a>
             </div>
             <div class="footer__navigation">
                 <ul class="footer__menu">
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Learn more</a></li>
+                    <li class="footer__link"><a href="#"></a>Articles</li>
+                    <li class="footer__link"><a href="#"></a>About us</li>
+                    <li class="footer__link"><a href="#"></a>Learn more</li>
                 </ul>
             </div>
-            <div class="footer_socnetworls">
-                <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+            <div class="footer_socnetworks">
+                <ul class="socnetworks__men">
+                    <li class="footer__link"><a href="#"></a>
+                        <span class="footer__icon">
+                            <span class="icon-square">
+                                <span class="ico ico_facebook"></span>
+                            </span>
+                        </span>
+                    </li>
+                    <li class="footer__link"><a href="#"></a>
+                        <span class="footer__icon">
+                            <span class="icon-square">
+                                <span class="ico ico_instagram"></span>
+                            </span>
+                        </span>
+                    </li>
+                    <li class="footer__link"><a href="#"></a>
+                        <span class="footer__icon">
+                            <span class="icon-square">
+                                <span class="ico ico_pinterest"></span>
+                            </span>
+                        </span>
+                    </li>
+                    <li class="footer__link"><a href="#"></a>
+                        <span class="footer__icon">
+                            <span class="icon-square">
+                                <span class="ico ico_telegram"></span>
+                            </span>
+                        </span>
+                    </li>
                 </ul>
             </div>     
         </div>

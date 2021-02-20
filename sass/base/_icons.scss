@@ -1,0 +1,39 @@
+.ico {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.icon-square {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-font-light;        
+    
+}
+
+.ico_facebook {
+    background-image: url("/img/facebook.svg");
+    width: 16px;
+    height: 28px;
+}
+
+.ico_instagram {
+    background-image: url("/img/instagram.svg");
+    width: 30px;
+    height: 30px;
+}
+
+.ico_pinterest {
+    background-image: url("/img/pinterest.svg");
+    width: 21px;
+    height: 27px;
+}
+
+.ico_telegram {
+    background-image: url("/img/telegram.svg");
+    width: 26px;
+    height: 23px;
+}

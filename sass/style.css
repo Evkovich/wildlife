@@ -5,7 +5,6 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Open Sans", Verdana, sans-serif;
-  background: springgreen;
 }
 
 h1 {
@@ -41,6 +40,12 @@ h4 {
   color: #F7F7F7;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .button {
   font-family: Roboto;
   font-style: normal;
@@ -65,14 +70,73 @@ h4 {
   background: #8F5613;
 }
 
+.get__button {
+  width: 120px;
+  height: 60px;
+  border: 1px solid #CD6326;
+  border-radius: 0px 5px 5px 0px;
+}
+.get__button:hover {
+  background: #E39128;
+}
+.get__button:active {
+  background: #8F5613;
+}
+
+.background {
+  background-image: url("/img/bg.png");
+  box-shadow: -150px 0px 150px #02160B;
+  width: auto;
+  height: 780px;
+}
+
+.ico {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.icon-square {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F7F7F7;
+}
+
+.ico_facebook {
+  background-image: url("/img/facebook.svg");
+  width: 16px;
+  height: 28px;
+}
+
+.ico_instagram {
+  background-image: url("/img/instagram.svg");
+  width: 30px;
+  height: 30px;
+}
+
+.ico_pinterest {
+  background-image: url("/img/pinterest.svg");
+  width: 21px;
+  height: 27px;
+}
+
+.ico_telegram {
+  background-image: url("/img/telegram.svg");
+  width: 26px;
+  height: 23px;
+}
+
 .wrapper {
   width: 1200px;
   margin: auto;
 }
 
 .header {
-  background: #02160b;
-  padding: 19px 0 120px 0;
+  margin: 0 0 120px 0;
+  padding-top: 20px;
 }
 
 .header__wrapper {
@@ -90,6 +154,9 @@ h4 {
   text-transform: uppercase;
   text-decoration: none;
   color: #F7F7F7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header_button {
@@ -117,8 +184,8 @@ h4 {
 }
 
 .survival {
-  background-color: #02160b;
-  padding: 120px 0;
+  margin: 0 0;
+  padding-bottom: 240px;
 }
 
 .survival__title {
@@ -137,19 +204,127 @@ h4 {
 
 .latest-articles {
   background-color: #cccccc;
+  padding-bottom: 240px;
 }
 
-h2 {
+.latest-articles__wrapper {
+  padding-top: 120px;
+}
+
+.latest__title {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .latest__text {
+  padding-bottom: 120px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
   text-align: center;
   color: #666666;
+}
+
+.articles__container {
+  position: relative;
+  text-align: center;
+}
+
+.container__text {
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
+  color: #F7F7F7;
+}
+
+.layout-5-column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.get-notified {
+  background: #cccccc;
+  text-align: center;
+}
+
+.get__form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.mail__form {
+  width: 540px;
+  height: 60px;
+  background: #cccccc;
+  border: 1px solid #666666;
+  border-right: none;
+  vertical-align: top;
+  margin-bottom: 240px;
+}
+
+.get__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 40px;
+  color: #333333;
+  margin-bottom: 59px;
+}
+
+.footer {
+  background-image: url("/img/bg_footer.jpg");
+  padding: 150px 0 149px 0;
+  width: auto;
+  height: 360px;
+}
+
+.footer_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: auto;
+}
+
+.footer__logo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 60px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #F7F7F7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 60px;
+  color: #F7F7F7;
+  list-style: none;
+  padding: 0 30px;
+  cursor: pointer;
+  display: inline;
+}
+
+.socnetworks__link {
+  display: inline;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,6 +5,9 @@
 // Base 
 @import "base/base";
 @import "base/buttons";
+@import "base/background";
+@import "base/icons";
+
 
 //Layouts
 @import "layouts/wrapper";
@@ -13,3 +16,5 @@
 // Components
 @import "components/survival";
 @import "components/latest-articles";
+@import "components/get-notified";
+@import "components/footer";
